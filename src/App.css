@@ -10,8 +10,9 @@ grid-gap: 10px;
 .header {
     grid-area: header;
     background-color: #FFB6C1;
+    width: 100%;
 }
-.header .logo {
+.logo {
     margin: 10px;
     width: 60px;
 }
@@ -34,4 +35,5 @@ a {
 .icon {
     margin: 10px;
 width: 150px;
+border-radius: 90px;
 }

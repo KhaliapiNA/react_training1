@@ -1,16 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-//import img1 from '../public/';
+import Header from './components/Header.jsx';
 
 
 
 const App = () => {
   return (
       <div className="app-wrapper">
-          <header className="header">
-              <img src='https://logopond.com/assets/img/logo-footer.png' className='logo' />
-          </header>
+          <Header />
           <nav className="nav">
               <div>
                   <a href="#">Profile</a>
