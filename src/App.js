@@ -3,7 +3,7 @@ import './App.css';
 import React from 'react';
 import Header from './components/Header.jsx';
 import Navigation from './components/Navigation';
-import Content from './components/Content';
+import ContentProfile from './components/ContentProfile';
 
 
 
@@ -12,7 +12,7 @@ const App = () => {
       <div className="app-wrapper">
           <Header />
           <Navigation />
-          <Content />
+          <ContentProfile />
           
     </div>
   );

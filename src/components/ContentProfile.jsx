@@ -1,6 +1,6 @@
 import React from 'react';
-
-const Content = function () {
+import './ContentProfile.css';
+const ContentProfile = function () {
     return (
         <div className="content">
             <div>
@@ -12,13 +12,13 @@ const Content = function () {
               </div>
             <div>My post</div>
             <div>new post</div>
-            <div>
-                <div>post1</div>
-                <div>post2</div>
-                <div>post3</div>
-                <div>past4</div>
+            <div className='item'>
+                <div className='item'>post1</div>
+                <div className='item'>post2</div>
+                <div className='item'>post3</div>
+                <div className='item'>post4</div>
             </div>
         </div>);
 }
 
-export default Content;
+export default ContentProfile;

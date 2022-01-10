@@ -1,0 +1,14 @@
+.content {
+    grid-area: content;
+    background-color: #FFDAB9;
+    display: grid;
+}
+.img1 {
+    height: 300px;
+}
+
+.icon {
+    margin: 10px;
+    width: 150px;
+    border-radius: 90px;
+}
