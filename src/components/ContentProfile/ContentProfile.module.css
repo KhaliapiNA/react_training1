@@ -1,0 +1,10 @@
+.content {
+    grid-area: content;
+    background-color: #FFDAB9;
+    display: grid;
+}
+
+.post{
+
+
+}

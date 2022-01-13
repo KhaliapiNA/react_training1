@@ -1,9 +1,10 @@
-.nav {
+.navigation {
     grid-area: nav;
     background-color: #FFB6C1;
 }
 
-.item {
+.page {
     text-decoration: none;
     color: #2F4F4F;
+    font-size: 20px;
 }
