@@ -1,12 +1,12 @@
 import React from 'react';
 import s from './NewPost.module.css';
 
-const NewPost = function (){
+const NewPost = function(){
     return(
-        <div>
-            <div>New post</div>
-            <div>My post</div>
+        <div className={s.post}>
+            <div className={s.post}>New post</div>
+            <div className={s.post}>My post</div>
         </div>
     );
 }
-export default NewPost();
+export default NewPost;

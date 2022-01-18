@@ -1,10 +1,8 @@
-.content {
-    grid-area: content;
-    background-color: #FFDAB9;
-    display: grid;
-}
+
 
 .post{
-
+    text-decoration: none;
+    color: #2F4F4F;
+    font-size: 20px;
 
 }
