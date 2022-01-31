@@ -1,10 +1,14 @@
 .navigation {
     grid-area: nav;
     background-color: #FFB6C1;
+
 }
 
 .page {
     text-decoration: none;
     color: #2F4F4F;
     font-size: 20px;
+    line-height: 2;
+    font-family: "Candara Light";
+    margin: 15px;
 }

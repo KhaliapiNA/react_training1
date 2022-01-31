@@ -9,19 +9,19 @@ const Navigation = function () {
     return (
         <nav className={s.navigation}>
             <div >
-                <a className={s.page} href="#">Profile</a>
+                <a className={s.page} href="/profile">Profile</a>
             </div>
             <div>
-                <a className={s.page} href="#">Messages</a>
+                <a className={s.page} href="/messages">Messages</a>
             </div>
             <div >
-                <a href="#" className={s.page}>News</a>
+                <a href="/news" className={s.page}>News</a>
             </div>
             <div >
-                <a href="#" className={s.page}>Music</a>
+                <a href="/music" className={s.page}>Music</a>
             </div>
             <div >
-                <a href="#" className={s.page}> Settings</a>
+                <a href="settings" className={s.page}> Settings</a>
             </div>
         </nav>);
 }

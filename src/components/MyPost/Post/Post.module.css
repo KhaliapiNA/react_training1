@@ -1,0 +1,12 @@
+.post{
+
+    text-decoration: none;
+    color: #2F4F4F;
+    font-size: 20px;
+    line-height: 3;
+}
+.icon {
+    margin: 10px;
+    width: 80px;
+    border-radius: 120px;
+}

@@ -6,7 +6,14 @@ grid-template-areas:
 grid-template-rows: 60px 1fr;
 grid-template-columns: 2fr 10fr;
 grid-gap: 10px;
+    margin: 15px;
 }
-
+.app-wrapper-content{
+    grid-area: content;
+    background-color: #FFDAB9;
+    display: grid;
+    font-family: "Candara Light";
+    padding: 15px;
+}
 
 
