@@ -1,8 +1,8 @@
 import React from 'react';
 import s from './ContentProfile.module.css';
-import Description from "../Description/Description";
-import NewPost from "../NewPost/NewPost";
-import MyPosts from "../MyPost/MyPosts";
+import Description from "./Description/Description";
+import NewPost from "./NewPost/NewPost";
+import MyPosts from "./MyPost/MyPosts";
 
 const ContentProfile = function (props) {
     return (
