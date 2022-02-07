@@ -9,11 +9,10 @@ const MyPosts = function (props) {
         {id: 2, message: 'Leave place for dessert', likesCount: 23},
         {id: 3, message: 'It\'s not fair', likesCount: 13}
     ];
+    let pots = postsData.map( p => <Post message={p.message} likesCount={p.likesCount}/>);
     return (
         <div>
-            <Post message={postsData[0].message} likesCount={postsData[0].likesCount}/>
-            <Post message={postsData[1].message} likesCount={postsData[1].likesCount}/>
-            <Post message={postsData[2].message} likesCount={postsData[2].likesCount}/>
+            {pots}
             <Post/>
         </div>
 
