@@ -1,4 +1,4 @@
-import s from './App.css';
+import './App.css';
 import React from 'react';
 import Header from './components/Header/Header.jsx';
 import Navigation from './components/Navigation/Navigation.jsx';
