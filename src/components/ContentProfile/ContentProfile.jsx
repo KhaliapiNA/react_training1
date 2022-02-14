@@ -12,7 +12,7 @@ const ContentProfile = function (props) {
 
             <Description /><br/>
             <NewPost /><br/>
-            <MyPosts posts={props.posts} />
+            <MyPosts posts={props.posts} addPost={props.addPost} />
 
 
         </div>);

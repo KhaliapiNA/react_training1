@@ -1,6 +1,6 @@
 import React from 'react';
-
-let data= {
+import {renderEntireTree} from "./render";
+let state= {
     profilePage: {
     posts: [
         {id: 1, message: 'I am so ate', likesCount: 33},
@@ -21,4 +21,14 @@ let data= {
         {id: 3, message: 'Sure'}
     ]}
 };
-export default data;
+
+export let addPost = function(postMessage){
+    let newPost = {
+        id: 4,
+        message: postMessage,
+        likesCount: 0
+    };
+state.profilePage.posts.push(newPost);
+/*renderEntireTree();*/
+}
+export default state;
