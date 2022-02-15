@@ -1,4 +1,4 @@
-import React from 'react';
+
 import {renderEntireTree} from "./render";
 let state= {
     profilePage: {
@@ -6,7 +6,8 @@ let state= {
         {id: 1, message: 'I am so ate', likesCount: 33},
         {id: 2, message: 'Leave place for dessert', likesCount: 23},
         {id: 3, message: 'It\'s not fair', likesCount: 13}
-    ]},
+    ],
+    newPostText: 'serenity-post'},
     messagesPage:{
     dialogsData: [
         {id: 'minako', name: 'Minako'/* src: 'https://i.pinimg.com/564x/02/26/3e/02263ec54bc522ece56ef0f893079567--sailor-venus-sailor-moon.jpg'*/},
@@ -22,13 +23,18 @@ let state= {
     ]}
 };
 
-export let addPost = function(postMessage){
+export let addPost = function(){
     let newPost = {
         id: 4,
-        message: postMessage,
+        message: state.profilePage.newPostText,
         likesCount: 0
     };
 state.profilePage.posts.push(newPost);
-/*renderEntireTree();*/
+renderEntireTree(state);
+}
+export let updateNewPostText = function(newText){
+
+    state.profilePage.newPostText(newText);
+    renderEntireTree(state);
 }
 export default state;

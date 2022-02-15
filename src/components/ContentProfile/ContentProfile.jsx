@@ -4,6 +4,8 @@ import Description from "./Description/Description";
 import NewPost from "./NewPost/NewPost";
 import MyPosts from "./MyPost/MyPosts";
 
+
+
 const ContentProfile = function (props) {
 
     return (
@@ -12,7 +14,7 @@ const ContentProfile = function (props) {
 
             <Description /><br/>
             <NewPost /><br/>
-            <MyPosts posts={props.posts} addPost={props.addPost} />
+            <MyPosts posts={props.posts} updateNewPostText={props.updateNewPostText} addPost={props.addPost} />
 
 
         </div>);
