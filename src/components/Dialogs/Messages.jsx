@@ -34,8 +34,8 @@ let addMessage = function (){
             </div>
             <div className={s.messages}>
                 {messagesElement}
-                <textarea ref={newMessage}></textarea><br/>
-                <button onClick={addMessage}></button>
+                <textarea ref={newMessage} />
+                <button onClick={addMessage}/>
 
             </div>
         </div>
