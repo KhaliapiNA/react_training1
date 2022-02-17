@@ -1,7 +1,6 @@
 import React from 'react';
 import s from './ContentProfile.module.css';
 import Description from "./Description/Description";
-
 import MyPosts from "./MyPost/MyPosts";
 
 

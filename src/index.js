@@ -7,10 +7,10 @@ import App from './App';
 import {addPost, updateNewPostText} from "./state";
 
 
-let renderEntireTree =  () => {
+let renderEntireTree =  (state) => {
     ReactDOM.render(
         <React.StrictMode>
-            <App state={state} posts={state.profilePage} addPost={addPost} updateNewPostText={updateNewPostText}/>
+            <App state={state} addPost={addPost} updateNewPostText={updateNewPostText}/>
         </React.StrictMode>,
         document.getElementById('root')
     );
